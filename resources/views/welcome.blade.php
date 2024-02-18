@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
                     paiza bbs
                 </div>
-                <p><?= date('Y/m/d H:i:s') ?></p>
+		<p><?= date('Y/m/d H:i:s') ?></p>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

@@ -9,9 +9,15 @@
         <h1>paiza bbs</h1>
         <p>{{ $message }}</p>
         @foreach ($articles as $article)
-            <a href='{{ route("article.show", ["id" => $article->id] )}}'>
-                {{ $article->content }}
-            </a>
+	    <p>
+                <a href='{{ route("article.show", ["id" => $article->id]) }}'>
+		    {{ $article->content }},
+		    {{ $article->user_name }}
+                </a>
+            </p>
         @endforeach
+        <div>
+            <a href={{ route('article.new') }}>新規投稿</a>
+        </div>
     </body>
 </html>
