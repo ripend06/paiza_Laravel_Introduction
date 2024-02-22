@@ -11,9 +11,12 @@ class AddColumnUsername extends Migration
      *
      * @return void
      */
+
+     //追加したいものはup()
     public function up()
     {
         Schema::table('articles', function (Blueprint $table) {
+            //user_nameカラムを追加
             $table->string('user_name');
         });
     }
@@ -23,6 +26,9 @@ class AddColumnUsername extends Migration
      *
      * @return void
      */
+
+
+     //削除したいものはdown()
     public function down()
     {
         Schema::table('articles', function (Blueprint $table) {

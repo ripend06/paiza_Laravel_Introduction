@@ -3,6 +3,7 @@
 @section('content')
     <h1>paiza bbs</h1>
     <p>{{ $message }}</p>
+    <!-- <form method="POST" action="/article/store"> -->
     {{ Form::open(['route' => 'article.store']) }}
         <div class='form-group'>
             {{ Form::label('content', 'Content:') }}

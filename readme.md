@@ -1,3 +1,14 @@
+# 要件定義
+
+### ルーティング図
+<img src="./public/スクリーンショット 2024-02-22 1.26.59.png">
+
+###  ルーティング
+<img src="./public/スクリーンショット 2024-02-22 1.28.39.png">
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
